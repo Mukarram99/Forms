@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>CSS FORMS</title>
+  <link rel="stylesheet" href="css/style.css">
+  <!-- fontawesome link -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+</head>
+
+<body>
+
+  <div class="form-div">
+
+    <form method="get">
+      <h3>Registration</h3>
+      <div class="fname">
+        <label>Full Name</label>
+        <input type="text" name="" maxlength="13" placeholder="Enter Your name" required>
+      </div>
+
+      <div class="username">
+        <label>Username</label>
+        <input type="text" name="" placeholder="Enter your Username" required>
+      </div>
+
+      <div class="email">
+        <label>E-Mail</label>
+        <input type="email" name="" placeholder="Enter Your Email" required>
+      </div>
+
+      <div class="phone">
+        <label>Phone Number </label>
+        <input type="number" name="" maxlength="13" placeholder="Enter Your Number" required>
+      </div>
+
+      <div class="pswd">
+        <label>Password</label>
+        <input type="password" name="" maxlength="13" placeholder="Enter your Password" required>
+      </div>
+
+      <div class="pswd1">
+        <label>Confirm Password</label>
+        <input type="password" name="" maxlength="13" placeholder="Confirm your Password" required>
+      </div>
+
+      <div class="gender">
+        <label>Gender</label>
+        <input type="radio" name="gender" value="M">
+        <label>Male</label>
+        <input type="radio" name="gender" value="F">
+        <label>Female</label>
+        <input type="radio" name="gender" value="O">
+        <label>Prefer not to say</label>
+      </div>
+
+
+      <!-- <div>
+        <label>Write Your Feedback </label>
+        <textarea name="name" rows="8" cols="80" placeholder="Please enter your comments" required></textarea>
+      </div> -->
+
+      <div class="pswd-div">
+        <div class="remember-pswd">
+          <input type="checkbox" name="">
+          <p>Remember me</p>
+
+        </div>
+        <div class="forgot pwd">
+          <a href="#">Forgot Password?</a>
+        </div>
+
+      </div>
+
+      <button type="sumbit" name="button" >Register here <i class="fa-solid fa-arrow-right"></i></button>
+
+  </div>
+  </form>
+
+
+
+</body>
+
+</html>

@@ -1,0 +1,136 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.form-div {
+  background-color: #87CEEB;
+  width: 100%;
+  height: 100vh;
+  padding-top: 100px;
+}
+
+form {
+  width: 50%;
+  min-height: 300px;
+  background-color: #FFFFFF;
+  margin: 0 auto;
+  /* border-radius: 20px; */
+  padding: 30px;
+}
+
+form label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+form input, form text area {
+  width: 100%;
+  height: 35px;
+  margin-bottom: 10px;
+  padding: 0 10px;
+  /* border: 0; */
+  /* outline: none; */
+  border-radius: 5px;
+}
+
+
+.fname{
+  width: 42%;
+  display:inline-block;
+  margin-right: 4%;
+}
+.username{
+  width: 42%;
+  display: inline-block;
+  margin-left: 4%;
+}
+.email{
+  width: 42%;
+  display: inline-block;
+  margin-right: 4%;
+}
+.phone{
+  width: 42%;
+  display: inline-block;
+  margin-left: 4%;
+}
+.pswd{
+  width: 42%;
+  display: inline-block;
+  margin-right: 4%;
+}
+.pswd1{
+  width: 42%;
+  display: inline-block;
+  margin-left: 4%;
+}
+.gender input[type=radio]{
+  width: 20px;
+  height: 20px;
+  display: flex;
+  margin-right: 4%;
+}
+.gender label[type=radio]{
+  width: 20px;
+  height: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+
+
+
+form textarea {
+  height: 80px;
+  resize: none;
+  outline:0;
+}
+
+form input::placeholder, form textarea::placeholder {
+  /* color: #FFFFFF; */
+}
+
+form button {
+  width: 100%;
+  padding: 10px 0;
+  /* font-size: 16px; */
+    background-color: #87CEEB;
+    color: #FFFFFF;
+    border: none;
+    border-radius: 20px;
+    margin: 0 auto;
+    display: block;
+    cursor: pointer;
+}
+.pswd-div,.remember-pswd{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 5px;
+}
+.remember-pswd input[type=checkbox]{
+  width: 20px;
+  height: 20px;
+  margin-right: 10px;
+  margin-bottom: 10px;
+}
+form h3{
+  font-size: 30px;
+  color: black;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+input[type=text] {
+  /* width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: 2px solid red;
+  border-radius: 4px;
+  border: none;
+  border-bottom: 2px solid red; */
+}
